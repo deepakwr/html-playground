@@ -1,0 +1,36 @@
+
+.calendarContainer {
+	width:70%;
+}
+
+.day {
+  width:13%;
+  height:40px;
+  border-radius:0px;
+  font-size: 16px;
+  margin:1px;
+  /* font-size: 10px; */
+}
+
+.dayName {
+  display: inline-table;
+  width:13%;
+  height:30px;
+  border: none;
+  font-size: 16px;
+  float:center;
+  margin: 0px;
+  padding:0px;
+  text-align:center;
+  /* font-size: 10px; */
+}
+
+
+.markedDay {
+  font-size: 18px;
+  background-color:lightseagreen
+}
+
+.selectedDay {
+  border-color:royalblue;
+}

@@ -1,0 +1,39 @@
+<html lang="en" data-framework="javascript">
+	<head>
+		<meta charset="utf-8">
+		<title>Calendar App</title>
+		<link rel="stylesheet" href="css/calendar.css">
+	</head>
+  <body onload="loadCalendar();">
+  <script src="js/calendar.js"></script>
+    <h2 style="width:70%;text-align: center" id="displayMonth"> Month and Year </h2>
+    <button id="prevBtn" onclick="loadPreviousMonth();"><</button>
+    <button id="nextBtn" onclick="loadNextMonth();">></button> <br/>
+    <div style="width:70%">
+      <label class="dayName" >Sunday</label>      <label class="dayName" >Monday</label>
+      <label class="dayName" >Tuesday</label>
+      <label class="dayName" >Wednesday</label>
+      <label class="dayName" >Thursday</label>
+      <label class="dayName" >Friday</label>
+      <label class="dayName" >Saturday</label>
+    </div>
+    <div id="days" class="calendarContainer" ></div> <br/>
+    
+
+    <br/>
+    <button id="addApointment" onclick="addAppointment();" >Add Appointment</button>
+    <button id="removeAppointment" onclick="removeAppointment();">Remove </button>
+  
+    <br/><br/>
+    <input id="detail" style="width:60%;margin:2px"></input><button id="editAppointment"  onclick="editAppointment();">Edit</button>
+    <br/>
+    <h3>List of Appointments:</h3>
+    <div id="listedAppointment"></div>
+    
+    
+  <!-- <label>12 April 2019 : Appointment - Detail</label>  -->
+
+
+
+  </body>
+</html>
